@@ -1,0 +1,118 @@
+body{
+    background: url(../imagens/Abstract\ colorful\ design\ blue\ major\ Wallpaper\ 12.jpg) no-repeat;
+    background-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom:40px;
+}
+
+#container-Right{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    background-color: #fefefe;
+    width: 400px;
+    height: 500px;
+    padding: 1em;
+    display: block;
+    text-align: left;
+    -webkit-border-top-right-radius: 25px;
+    -webkit-border-bottom-right-radius: 25px;
+    -moz-border-radius-topright: 25px;
+    -moz-border-radius-bottomright: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+
+.inp-login{
+    padding-top: 100px;
+    display: block;
+
+}
+
+.inp-login label{
+    display: block;
+
+}
+
+#container-Right label, input{
+    
+    margin-bottom: 20px;
+
+}
+.inp-login input{
+    border: 1px solid rgb(220, 220, 220);
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: 5px;
+
+}
+
+.inp-login input.senha{
+    background-image: url(../imagens/icone-usuario.png);
+
+}
+
+.inp-login input.email{
+    background-image: url(../imagens/icone-cadeado.png);
+    
+
+}
+
+.inp-login input:hover{
+    border: 1px solid #94d9f6;
+}
+
+.inp-login input:focus{
+    box-shadow: 0 0 0 0;
+    border: 1px solid #94d9f6;
+    outline: 0;
+}
+
+button{
+    margin-top: 15px;
+    background-color: #a8dcf2;
+    border-style: none;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #94d9f6;
+}
+
+
+#container-left{
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 400px;
+    height: 500px;
+    padding: 1em;
+    display: block;
+    -webkit-border-top-left-radius: 25px;
+    -webkit-border-bottom-left-radius: 25px;
+    -moz-border-radius-topleft: 25px;
+    -moz-border-radius-bottomleft: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#container-left img{
+    height: 500px;
+    width: 400px;
+}
